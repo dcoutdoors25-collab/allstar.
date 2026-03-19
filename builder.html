@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Build Your Home Service Plan</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<h1>Customize Your Property Care Plan</h1>
+
+<h3>Home Size</h3>
+
+<select id="homeSize">
+
+<option value="1">Small</option>
+<option value="1.25">Medium</option>
+<option value="1.6">Large</option>
+<option value="2.2">Estate</option>
+
+</select>
+
+<h3>Property Size</h3>
+
+<select id="lotSize">
+
+<option value="1">Town Lot</option>
+<option value="1.2">Standard</option>
+<option value="1.5">Large Lot</option>
+<option value="2">Estate Lot</option>
+
+</select>
+
+<h3>Select Services</h3>
+
+<div id="serviceList"></div>
+
+<h3>Plan Type</h3>
+
+<select id="planType">
+
+<option value="one">One Time Service</option>
+<option value="sub">Subscription Membership</option>
+
+</select>
+
+<button onclick="calculate()">Calculate Plan</button>
+
+<div id="summary"></div>
+
+<script src="services.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>
